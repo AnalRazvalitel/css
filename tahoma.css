@@ -1,10 +1,6 @@
 @import url('https://fonts.cdnfonts.com/css/whitney-2');
-    body {
-        font-family: 'whitney-2', 'Whitney Book';
-        font-weight: normal;
-    }
-
 *{
+	        font-family: 'whitney-2', 'Whitney Book'!important;
   font-weight: 501!important;
   font-smooth: never!important;
   -webkit-font-smoothing: none!important;
