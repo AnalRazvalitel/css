@@ -1,4 +1,6 @@
 *{
   font-family: "Tahoma"!important;
   font-weight: 501!important;
+  -webkit-font-smoothing: auto;
+  -moz-osx-font-smoothing: auto;
 }
