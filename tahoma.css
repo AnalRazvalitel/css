@@ -1,6 +1,17 @@
-@import url('https://fonts.cdnfonts.com/css/whitney-2');
+@import url(https://nfld99.github.io/Better-Discord/Source_Code/Use_Fonts/Yes.css);
+:root {
+--Chat-Font-Used: 'Magic Cards', normal ;
+--Chat-Font-Size: 15.5px;
+}
+:not([class="hljs"]):not(code){
+font-family: var(--Chat-Font-Used)!important;
+}
+
+.markup:not(code) {
+font-size: var(--Chat-Font-Size)!important;
+}
+
 *{
-  font-family: 'whitney-2', 'Whitney Book'!important;
   font-weight: 501!important;
   font-smooth: never!important;
   -webkit-font-smoothing: none!important;
