@@ -1,3 +1,9 @@
+@import url('https://fonts.cdnfonts.com/css/whitney-2');
+    body {
+        font-family: 'whitney-2', 'Whitney Book';
+        font-weight: normal;
+    }
+
 *{
   font-family: Oswald!important;
   font-weight: 501!important;
