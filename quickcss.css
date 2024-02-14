@@ -252,3 +252,5 @@ button.button__66e8c.buttonColor_a6eb73.fauxDisabled__095d8.button_afdfd9.lookFi
 div.actionButtons_b58cbb > button + button[aria-label="Start an Activity"] {
 	display: none!important;
 }
+
+.shinyButton_fc8363.giftButton_ff61dc.giftButton__0988e.button_afdfd9.lookFilled__19298.sizeMedium_c6fa98.grow__4c8a4 { display: none;}
