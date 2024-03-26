@@ -1,13 +1,3 @@
-*{
-  font-family: Tahoma!important;
-  font-weight: 501!important;
-  font-smooth: never!important;
-  -webkit-font-smoothing: none!important;
-  -moz-osx-font-smoothing: none!important;
-}
-
-/* Dubyas list of annoying stuff he hides in discord using Quick CSS */
-
 /* Disable Popup ads */
 .containerWrapper_fa6aa6,                   /* "Like this avatar decoration" popup on user modal */
 container__9dbd2                            /* Profile effect ad */ {
