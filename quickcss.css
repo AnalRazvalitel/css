@@ -12,6 +12,14 @@
 /* Hide Nitro upsells */
 /* ------------------ */
 
+.membersWrap_cbd271{
+  min-width: 0px!important;
+  width: 14em!important;
+  display: flexbox;
+  padding-right: 0px;
+}
+
+
 button.button_df39bd.button_dd4f85.lookBlank_dd4f85.colorBrand_dd4f85.grow_dd4f85{
   display: none;
 }
