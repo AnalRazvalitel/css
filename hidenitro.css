@@ -6,6 +6,7 @@
  * @source https://gist.github.com/TheSunCat/58fedaa19d6154ef3e4b2b676c286906
  */
 
+div[aria-label="Merch"] { display: none; }
 div[aria-label="The Last Meadow"] { display: none; }
 
 /* ------------------ */
