@@ -6,6 +6,10 @@
  * @source https://gist.github.com/TheSunCat/58fedaa19d6154ef3e4b2b676c286906
  */
 
+.upsellContainer__0b69f.upsellContainerShadow__0b69f.upsellContainerFloating__0b69f {
+    display: none!important;
+}
+
 label.label_df4aaf.labelChecked_df4aaf {
     display: none!important;
 }
