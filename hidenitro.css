@@ -31,6 +31,7 @@ button[aria-label="Send a gift"] { display: none; }
 button[aria-label="Open GIF picker"] { display: none; }
 button[aria-label="Open sticker picker"] { display: none; }
 
+button[aria-label="Noise Suppression powered by Krisp"] { display: none; }
 button[aria-label="Start An Activity"] { display: none; }
 
 /* Hide Nitro button in Home */
