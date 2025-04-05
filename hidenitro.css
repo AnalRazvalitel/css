@@ -23,6 +23,8 @@ button[aria-label="Send a gift"] { display: none; }
 button[aria-label="Open GIF picker"] { display: none; }
 button[aria-label="Open sticker picker"] { display: none; }
 
+button[aria-label="Start An Activity"] { display: none; }
+
 /* Hide Nitro button in Home */
 a[data-list-item-id$="___nitro"] { display: none; }
 
