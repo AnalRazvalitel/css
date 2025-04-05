@@ -12,6 +12,7 @@ div:nth-child(44), div:nth-child(46), div:nth-child(43){
 div[aria-label="Merch"] { display: none; }
 div[aria-label="The Last Meadow"] { display: none; }
 
+div[aria-label="Family Center"] { display: none; }
 /* ------------------ */
 /* Hide Nitro upsells */
 /* ------------------ */
