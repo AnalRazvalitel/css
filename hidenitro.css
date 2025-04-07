@@ -16,7 +16,7 @@ label.label_df4aaf.labelChecked_df4aaf {
     display: none!important;
 }
 
-div:nth-child(44), div:nth-child(46), div:nth-child(43){
+div:nth-child(44), div:nth-child(46), div:nth-child(43), div:nth-child(48), div:nth-child(45), .socialLinks__7df54{
     display: none !important;
 }
 div[aria-label="Merch"] { display: none; }
