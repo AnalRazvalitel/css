@@ -6,6 +6,73 @@
  * @source https://gist.github.com/TheSunCat/58fedaa19d6154ef3e4b2b676c286906
  */
 
+/* Disable Popup ads */
+.containerWrapper_fa6aa6,                   /* "Like this avatar decoration" popup on user modal */
+container__9dbd2                            /* Profile effect ad */ {
+    display: none;
+}
+
+/* Disable Gift Button(s) (in chat) */
+button[aria-label="Send a gift"] {
+    display: none;
+}
+
+/* Hide things in DMs page */
+.channel_c21703 .linkButton_ebd2ba > .link__2e8e1[href="/shop"], /* Hide 'Shop' Tab */
+.channel_c21703 .linkButton_ebd2ba > .link__2e8e1[href="/store"] /* Hide 'Ntiro' Tab */ {
+  display: none;
+}
+
+/* Profile effects */
+[class^="profileEffects"] {
+    display: none;
+}
+
+/* Avatar Decorations */
+svg[class^="avatarDecoration"],             /* Avatar Decorations */
+img[class^="avatarDecoration"],             /* Avatar Decorations in Messages */
+/* Fix 'View Profile' selector with hidden decoration */
+[class*="bannerSVGWrapper_"] > mask > image {
+    display: none;
+}
+[class*=avatarDecorationHint_] > foreignObject {
+  width: 80px;
+  height: 80px;
+  mask: url(#svg-mask-avatar-status-round-80);
+}
+[class*=avatarDecorationHint_] {
+  top: -80px;
+  left: 0px;
+  position: relative;
+}
+
+/* Disable nitro icon on members list hover and opening nitro page */
+/* Some discords have the boosting capitalized, some don't, no clue why. There's probably a cleaner way to do this. */
+div[class*=nameAndDecorators] div[role="button"]:has(svg[aria-label^="Server boosting since"]),
+div[class*=nameAndDecorators] div[role="button"]:has(svg[aria-label^="Server Boosting since"]) {
+    pointer-events: none;
+}
+
+/* Hide 'Explore Discoverable Servers' in server page */
+div[class*="listItem"]:has(div[aria-label="Explore Discoverable Servers"]) {
+  display: none;
+}
+
+/* Make Super Reactions less annoying */
+div[class^="effectsWrapper"] {
+    display: none;
+} 
+img.emoji{
+    opacity: 100;
+}
+div[class*="shakeReaction"] {
+    animation: none !important;
+
+.shinyButton_fc8363.button_afdfd9.lookFilled__19298.colorGreen__5f181.sizeSmall__71a98.fullWidth__7c3e8.grow__4c8a4.ctaButton_abf121 {
+	display: none!important;
+}
+
+
 .header_b3f026 { display: none!important; } 
 
 .upsellContainer__0b69f.upsellContainerShadow__0b69f.upsellContainerFloating__0b69f {
