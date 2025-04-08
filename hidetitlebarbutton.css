@@ -8,3 +8,5 @@ div[aria-label="Family Center"] { display: none !important; }
 div:nth-child(46), div:nth-child(43), div:nth-child(48), div:nth-child(45), div:nth-child(47), div:nth-child(21), .socialLinks__7df54{
     display: none !important;
 }
+
+.winButtons_c38106 {display: none!important;}
