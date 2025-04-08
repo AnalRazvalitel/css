@@ -7,8 +7,7 @@
  */
 
 /* Disable Popup ads */
-.containerWrapper_fa6aa6,                   /* "Like this avatar decoration" popup on user modal */
-container__9dbd2                            /* Profile effect ad */ {
+.containerWrapper_fa6aa6, container__9dbd2 {
     display: none;
 }
 
