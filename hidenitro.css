@@ -94,13 +94,14 @@ div[aria-label="Family Center"] { display: none; }
 /* ------------------ */
 
 /* Chatbox buttons */
-div[aria-label="Start an Activity"] { display: none; }
-button[aria-label="Send a gift"] { display: none; }
-button[aria-label="Open GIF picker"] { display: none; }
-button[aria-label="Open sticker picker"] { display: none; }
+div[aria-label="Start an Activity"] { display: none!important; }
+button[aria-label="Start an Activity"] { display: none!important; }
+button[aria-label="Send a gift"] { display: none!important; }
+button[aria-label="Open GIF picker"] { display: none!important; }
+button[aria-label="Open sticker picker"] { display: none!important; }
 
-button[aria-label="Noise Suppression powered by Krisp"] { display: none; }
-button[aria-label="Start An Activity"] { display: none; }
+button[aria-label="Noise Suppression powered by Krisp"] { display: none!important; }
+button[aria-label="Start An Activity"] { display: none!important; }
 
 /* Hide Nitro button in Home */
 a[data-list-item-id$="___nitro"] { display: none; }
