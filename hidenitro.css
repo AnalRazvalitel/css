@@ -1,12 +1,3 @@
-/**
- * @name Adblock
- * @author TheSunCat and contributors
- * @version 1.0.0
- * @description Hide all Nitro & Boost upsells on Discord!
- * @source https://gist.github.com/TheSunCat/58fedaa19d6154ef3e4b2b676c286906
- */
-
-/* Disable Popup ads */
 .containerWrapper_fa6aa6, .container__9dbd2 {
     display: none;
 }
@@ -95,7 +86,6 @@ div[aria-label="Family Center"] { display: none; }
 
 /* Chatbox buttons */
 div[aria-label="Start an Activity"] { display: none!important; }
-button[aria-label="Start an Activity"] { display: none!important; }
 button[aria-label="Send a gift"] { display: none!important; }
 button[aria-label="Open GIF picker"] { display: none!important; }
 button[aria-label="Open sticker picker"] { display: none!important; }
