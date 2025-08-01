@@ -9,6 +9,9 @@ button[aria-label="Send a gift"] {
     display: none;
 }
 
+.button__74017.button__24af7  {
+  display: none!important;
+}
 
 .channel_c21703 .linkButton_ebd2ba > .link__2e8e1[href="/shop"], 
 .channel_c21703 .linkButton_ebd2ba > .link__2e8e1[href="/store"]  {
