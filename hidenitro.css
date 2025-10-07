@@ -304,3 +304,7 @@ content_c6490e {
 ul[aria-label="Channels"] > div[aria-hidden="true"] + div { 
 	display: none!important;
 }
+
+.children__2ea32 {
+    display: none!important;
+}
