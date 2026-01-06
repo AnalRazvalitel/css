@@ -17,6 +17,10 @@ button[aria-label="Checkpoint"] {
     display: none!important;
 }
 
+._85643a485899904b-button._9293f6b2fc12398a-iconWrapper._9293f6b2fc12398a-clickable {
+    display: none!important;
+}
+
 button[aria-label="Send a gift"] {
     display: none!important;
 }
