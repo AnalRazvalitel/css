@@ -9,12 +9,16 @@
 .appLauncherGlow_e6e74f {display: none!important;}
 
 .containerWrapper_fa6aa6, .container__9dbd2 {
-    display: none;
+    display: none!important;
 }
 
 
+button[aria-label="Checkpoint"] {
+    display: none!important;
+}
+
 button[aria-label="Send a gift"] {
-    display: none;
+    display: none!important;
 }
 
 .button__74017.button__24af7  {
